@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+
+a:hover {
+    cursor: pointer;
+    color: lightcoral;
+}
+
+.nav-container {
+    margin: auto;
+    height: 50px;
+    background: #1F2937;
+    color: #E5E7EB;
+    padding: 0 16px;
+    font-size: 18px;
+}
+
+.pitch {
+   max-width: 1000px;
+   display: flex;
+   justify-content: space-between;
+   margin: auto;
+}
+
+.pitch h2 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.nav-container ul {
+    display: flex;
+    gap: 24px;
+}
+
+.section-container {
+    background: #1F2937;
+    color: #E5E7EB;
+    padding-top: 135px;
+    height: 450px;
+}
+
+.pitch2 {
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.section-container h1 {
+    font-size: 48px;
+    margin: 0;
+    font-weight: 900;
+}
+
+.section-container p {
+    font-size: 18px;
+}
+
+.section-container .left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+.left-section button {
+    display: flex;
+    align-self: flex-start;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px 35px;
+}
+
+.section-container .right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-container img {
+    width: 550px;
+    height: 220px;
+}
+
+.random-container img {
+    width: 100px;
+    height: 100px;
+}
+
+.randominfo-title h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+
+.random-container {
+    height: 500px;
+    color: #444;
+    font-weight: 500;
+}
+
+.randominfo-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    text-align: center;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.info img {
+    border: 4px steelblue solid;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 275px;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 10px;
+    text-align: center;
+    background: #E5E7EB;
+}
+
+.quote {
+    max-width: 700px;
+}
+
+.quote-container p:nth-of-type(1) {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    width: 700px;
+    text-align: right;
+}
+
+.card-container {
+    height: 150px;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    background: #3882F6;
+    border-radius: 10px;
+}
+
+.card-container-container {
+    height: 300px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.card-header {
+    font-size: 24px;
+    font-weight: 900;
+    color: #E5E7EB;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.card-signup {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.btn-light {
+    height: 37px;
+    background: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    border: 1px solid #E5E7EB;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.test {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    background: #1F2937;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    color: #E5E7EB;
+    font-size: 20px;
+    display: flex;
+}
